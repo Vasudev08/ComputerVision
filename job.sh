@@ -14,7 +14,7 @@ echo "Anaconda Loaded."
 echo "Changing to project directory .."
 cd /scratch/user/vasu14devagarwal/ComputerVision
 
-echo "Starting training with Conda..."
-conda run -n cv-env python train.py
+echo "Starting evaluating with Conda..."
+conda run -n cv-env python evaluation.py
 
 echo "Job Finished!"

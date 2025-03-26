@@ -1,0 +1,20 @@
+Loading Anaconda3 ...
+Anaconda Loaded.
+Changing to project directory ..
+Starting training with Conda...
+Using device: cuda
+Epoch [1/5], Loss: 1.4144
+Epoch [2/5], Loss: 1.0478
+Epoch [3/5], Loss: 0.8969
+Epoch [4/5], Loss: 0.7904
+Epoch [5/5], Loss: 0.7048
+Training complete and model saved!
+Using device: cuda
+Setting up transforms...
+Loading CIFAR-10 test dataset...
+Loading trained model...
+Model loaded and set to eval mode.
+Starting evaluation...
+Test Accuracy: 69.58%
+
+Job Finished!
