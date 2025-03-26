@@ -57,7 +57,7 @@ for epoch in range(epochs):
 
         running_loss += loss.item()
     avg_loss = running_loss / len(trainloader)
-    print(f"Epoch [{epoch+1}/{epochs}], Loss: {avg_loss:.4f}")
+    print(f"Epoch [{epoch+1}/{epochs}], Loss: {avg_loss:.4f}", flush=True)
 
 os.makedirs("model", exist_ok=True)
 torch.save(model.state_dict(), "model/cnn_cifar10.pth")

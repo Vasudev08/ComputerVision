@@ -1,0 +1,5 @@
+/var/spool/slurmd/job12852610/slurm_script: line 14: cd: /home/vasu14devagarwal/ComputerVsision: No such file or directory
+Traceback (most recent call last):
+  File "/scratch/user/vasu14devagarwal/ComputerVision/train.py", line 1, in <module>
+    import torch
+ModuleNotFoundError: No module named 'torch'

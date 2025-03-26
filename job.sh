@@ -8,8 +8,13 @@
 #SBATCH --mem=16G
 #SBATCH --output=output_%j.log
 
-module load Anaconda3
-source activate cv-env
+echo "Loading Anaconda3 ..." && module load Anaconda3
+echo "Anaconda Loaded."
 
-cd ~/ComputerVsision
-python train.py
+echo "Changing to project directory .."
+cd /scratch/user/vasu14devagarwal/ComputerVision
+
+echo "Starting training with Conda..."
+conda run -n cv-env python train.py
+
+echo "Job Finished!"

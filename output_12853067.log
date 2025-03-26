@@ -1,0 +1,13 @@
+Loading Anaconda3 ...
+Anaconda Loaded.
+Changing to project directory ..
+Starting training with Conda...
+Using device: cuda
+Epoch [1/5], Loss: 1.3971
+Epoch [2/5], Loss: 1.0403
+Epoch [3/5], Loss: 0.8826
+Epoch [4/5], Loss: 0.7692
+Epoch [5/5], Loss: 0.6828
+Training complete and model saved!
+
+Job Finished!
